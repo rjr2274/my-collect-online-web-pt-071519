@@ -8,7 +8,3 @@ def my_collect(array)
   end
   collection_new
 end
-
-binding.pry
-
-my_collect(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
