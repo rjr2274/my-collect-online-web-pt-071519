@@ -9,6 +9,6 @@ def my_collect(array)
   collection_new
 end
 
-# binding.pry
+binding.pry
 
 my_collect(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
