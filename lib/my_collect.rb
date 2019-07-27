@@ -11,4 +11,4 @@ end
 
 # binding.pry
 
-hello(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
+my_collect(["Tim", "Tom", "Jim"]) { |name| puts "Hi, #{name}" }
